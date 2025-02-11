@@ -12,9 +12,9 @@ import fs from 'fs';
 // TODO: Create an array of questions for user input
 const questions = [
     {
- type: 'input',
- name: 'title',
- message: 'What is the title of your project?',
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?',
     },
     {
     type: 'input',
@@ -22,7 +22,7 @@ const questions = [
     message: 'Please write a short description of your project.',
     },
     {
-    type: 'list',
+    type: 'input',
     name: 'installation',
     message: 'What command should be run to install dependencies?',
     },
